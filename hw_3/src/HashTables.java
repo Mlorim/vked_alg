@@ -152,7 +152,7 @@ public class HashTables {
     }
 
     public static List<List<String>> find_anagrams(List<String> words) {
-        int m = words.size();
+        int m = 256;
         HashMap<Integer, List<String>> hashMap = new HashMap<>();
 
         for (String word: words) {
