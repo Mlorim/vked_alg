@@ -259,7 +259,7 @@ public class PrefixTree {
                 {'i','f','l','v'}
         };
         String[] words = {"oath","pea","eat","rain"};
-        solution = new Solution();
-        System.out.println(solution.findWords(board, words).toString())
+        Solution solution = new Solution();
+        System.out.println(solution.findWords(board, words).toString());
     }
 }
